@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Batalha Naval - Navios e Habilidades</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+      color: #333;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h1 {
+      color: #005f73;
+    }
+    h2 {
+      color: #0a9396;
+    }
+    pre {
+      background: #e0e0e0;
+      padding: 15px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-family: monospace;
+    }
+    ul {
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Jogo Batalha Naval em C</h1>
+  <p>Este projeto implementa um jogo de <strong>Batalha Naval</strong> simplificado em linguagem C, onde:</p>
+  <ul>
+    <li>Um tabuleiro 10x10 é representado por uma matriz bidimensional.</li>
+    <li>São posicionados quatro navios no tabuleiro (2 horizontais/verticais e 2 diagonais).</li>
+    <li>São implementadas três habilidades especiais com áreas de efeito distintas: <em>Cone</em>, <em>Cruz</em> e <em>Octaedro</em>.</li>
+    <li>As áreas de efeito das habilidades são sobrepostas no tabuleiro e exibidas de forma clara no console.</li>
+  </ul>
+
+  <h2>Como usar o código</h2>
+  <p>Compile o programa usando o GCC:</p>
+  <pre>gcc batalha_naval_com_habilidades.c -o batalha_naval</pre>
+  <p>E execute:</p>
+  <pre>./batalha_naval</pre>
+
+  <h2>Legenda da saída do programa</h2>
+  <ul>
+    <li><strong>~</strong>: Água</li>
+    <li><strong>#</strong>: Navio</li>
+    <li><strong>*</strong>: Área afetada pela habilidade</li>
+  </ul>
+
+  <h2>Expansões futuras</h2>
+  <ul>
+    <li>Implementar movimento e ataque das peças.</li>
+    <li>Adicionar interação com usuário para posicionamento dos navios.</li>
+    <li>Adicionar interface gráfica para visualização do tabuleiro.</li>
+  </ul>
+
+  <p><em>Projeto criado para estudo e prática de lógica em C.</em></p>
+</body>
+</html>
