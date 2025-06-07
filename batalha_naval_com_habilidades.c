@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 
 #define TAM 10       // Tamanho do tabuleiro
 #define NAVIO_TAM 3  // Tamanho dos navios
