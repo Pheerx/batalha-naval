@@ -1,0 +1,13 @@
+# Arquivos compilados
+*.o
+*.out
+*.exe
+batalha_naval
+
+# Editor configs
+.vscode/
+.idea/
+
+# Arquivos temporários
+*.log
+*.tmp
